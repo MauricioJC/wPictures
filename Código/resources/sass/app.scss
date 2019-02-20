@@ -1,0 +1,49 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+#welcome_wallpaper {
+  background-image: url('/images/wallpaper_02.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#welcome_h1 {
+  font: 600 1.5em/1 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+#navbar_principal{
+  background-color: #0d47a1;
+  background-image: linear-gradient(to right, #0d47a1 , #0097a7 );
+}
+
+
+.footer {
+  background-color: #0D47a1;
+  background-image:linear-gradient(to right, #004d40, #00838f);
+  //background-image:linear-gradient(to right,#263238, #004d40);
+  color: white;
+}
+
+.footer ul {
+  list-style:none;
+  padding: 0;
+  margin:0;
+}
+
+.footer a {
+  color:  #ffffff;
+}
